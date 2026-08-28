@@ -35,7 +35,7 @@ export default function AboutUs() {
           <NeuCard className="p-2 col-span-2">
             <img
               src={aboutUs.images[0]}
-              alt="CodeCraft classroom"
+              alt="CITE classroom"
               className="w-full h-56 object-cover rounded-neu-sm"
             />
           </NeuCard>
@@ -49,7 +49,7 @@ export default function AboutUs() {
           <NeuCard className="p-2">
             <img
               src={aboutUs.images[2]}
-              alt="Graduation day at CodeCraft"
+              alt="Graduation day at CITE"
               className="w-full h-40 object-cover rounded-neu-sm"
             />
           </NeuCard>

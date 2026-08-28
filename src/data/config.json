@@ -1,8 +1,8 @@
 {
-  "instituteName": "CodeCraft",
-  "instituteFullName": "CodeCraft Computer Institute",
+  "instituteName": "CITE",
+  "instituteFullName": "CITE Computer Institute",
   "tagline": "Learn. Build. Get Certified.",
-  "shortDescription": "CodeCraft Computer Institute has been shaping careers in technology since 2011. We offer hands-on, job-focused computer courses taught by working professionals, across two branches.",
+  "shortDescription": "CITE Computer Institute has been shaping careers in technology since 2011. We offer hands-on, job-focused computer courses taught by working professionals, across two branches.",
   "logoText": "CC",
   "foundedYear": 2011,
   "studentsTrained": "5000+",
@@ -12,20 +12,20 @@
   "branches": [
     {
       "id": "branch-1",
-      "name": "CodeCraft - Park Street Branch (Main)",
+      "name": "CITE - Park Street Branch (Main)",
       "shortName": "Park Street Branch",
       "address": "3rd Floor, Sarat Bose Complex, 24 Park Street, Kolkata, West Bengal 700016",
-      "phone": "+91 98300 11223",
+      "phone": "+91 78469 07846",
       "lat": 22.5535,
       "lng": 88.3529,
       "timings": "Mon - Sat: 9:00 AM - 7:00 PM"
     },
     {
       "id": "branch-2",
-      "name": "CodeCraft - Salt Lake Sector V Branch",
+      "name": "CITE - Salt Lake Sector V Branch",
       "shortName": "Salt Lake Branch",
       "address": "2nd Floor, Techno Tower, Sector V, Salt Lake, Kolkata, West Bengal 700091",
-      "phone": "+91 98300 44556",
+      "phone": "+91 96920 09692",
       "lat": 22.5744,
       "lng": 88.4338,
       "timings": "Mon - Sat: 9:00 AM - 7:00 PM"
@@ -33,9 +33,9 @@
   ],
 
   "contact": {
-    "phones": ["+91 98300 11223", "+91 98300 44556"],
-    "emails": ["info@codecraftinstitute.in", "admissions@codecraftinstitute.in"],
-    "whatsapp": "+91 98300 11223",
+    "phones": ["+91 78469 07846", "+91 96920 09692"],
+    "emails": ["info@citeinstitute.in", "admissions@citeinstitute.in"],
+    "whatsapp": "+91 78469 07846",
     "socialMedia": {
       "facebook": "https://facebook.com",
       "instagram": "https://instagram.com",
@@ -45,8 +45,8 @@
   },
 
   "payment": {
-    "upiId": "codecraftinstitute@okicici",
-    "payeeName": "CodeCraft Computer Institute",
+    "upiId": "citeinstitute@okicici",
+    "payeeName": "CITE Computer Institute",
     "qrImage": "/images/payment-qr.svg",
     "warningMessage": "Before making any payment, please contact the administrator and confirm course availability and fee details. Always collect your official fee receipt from the branch office after payment."
   },
@@ -85,8 +85,8 @@
   ],
 
   "aboutUs": {
-    "heading": "About CodeCraft Computer Institute",
-    "story": "CodeCraft Computer Institute was founded in 2011 with one goal: make quality, job-ready computer education accessible to every student in the city. What started as a single classroom with 12 students has grown into two full-fledged branches with modern labs, experienced faculty, and thousands of successful alumni working across the IT industry.",
+    "heading": "About CITE Computer Institute",
+    "story": "CITE Computer Institute was founded in 2011 with one goal: make quality, job-ready computer education accessible to every student in the city. What started as a single classroom with 12 students has grown into two full-fledged branches with modern labs, experienced faculty, and thousands of successful alumni working across the IT industry.",
     "mission": "To deliver practical, industry-relevant computer training that turns beginners into confident, employable professionals.",
     "vision": "To be the most trusted computer training institute in the region, known for outcomes, not just certificates.",
     "images": [

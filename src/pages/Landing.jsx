@@ -55,7 +55,7 @@ export default function Landing() {
             <NeuCard className="p-3">
               <img
                 src="/images/about/about-1.svg"
-                alt="Students learning at CodeCraft Computer Institute"
+                alt="Students learning at CITE Computer Institute"
                 className="w-full h-[380px] object-cover rounded-neu-sm"
               />
             </NeuCard>
@@ -137,7 +137,7 @@ export default function Landing() {
           </p>
           <h2 className="text-3xl font-bold mt-1">Our Branches</h2>
           <p className="text-ink-soft mt-3 max-w-xl mx-auto">
-            Tap on a map to open directions in Google Maps and find the nearest CodeCraft branch.
+            Tap on a map to open directions in Google Maps and find the nearest CITE branch.
           </p>
         </div>
 

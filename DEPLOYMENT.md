@@ -1,4 +1,4 @@
-# Deploying CodeCraft Computer Institute to Netlify (Free Tier)
+# Deploying CITE Computer Institute to Netlify (Free Tier)
 
 This guide walks you through publishing this website for free using **GitHub + Netlify**, then buying and connecting your own custom domain with free SSL.
 
@@ -26,7 +26,7 @@ GitHub will show you a page with commands. From inside your project folder (`com
 ```bash
 git init
 git add .
-git commit -m "Initial commit - CodeCraft website"
+git commit -m "Initial commit - CITE website"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/computer-coaching-institute.git
 git push -u origin main
@@ -72,7 +72,7 @@ https://random-name-12345.netlify.app
 Your site is now live and already has free SSL (the padlock) on that `.netlify.app` address. Next, let's put your own domain on it.
 
 ### 2.5 (Optional) Rename the Netlify subdomain
-Go to **Site settings → General → Site details → Change site name** to pick something more memorable, e.g. `codecraft-institute.netlify.app`, while you set up the custom domain.
+Go to **Site settings → General → Site details → Change site name** to pick something more memorable, e.g. `CITE-institute.netlify.app`, while you set up the custom domain.
 
 ### 2.6 Future updates
 Any time you edit `src/data/courses.json` or `src/data/config.json` (or anything else) and push to GitHub (`git push`), Netlify automatically rebuilds and redeploys the live site — no manual steps needed.
@@ -88,12 +88,12 @@ You can buy your domain from any registrar. Two solid, low-markup options:
 
 ### Option A — Buy directly through Netlify (easiest)
 1. In your site dashboard, go to **Domain management → Add a domain**.
-2. Search for your desired domain, e.g. `codecraftinstitute.com`.
+2. Search for your desired domain, e.g. `CITEinstitute.com`.
 3. Complete the purchase (card payment). Netlify auto-configures DNS and SSL for you — **skip to Part 4, you're basically done**.
 
 ### Option B — Buy externally (often cheaper, especially for `.in`)
 1. Go to a registrar such as [Namecheap](https://www.namecheap.com), [GoDaddy](https://www.godaddy.com), or [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/).
-2. Search for your desired domain name, e.g. `codecraftinstitute.in` or `codecraftinstitute.com`.
+2. Search for your desired domain name, e.g. `CITEinstitute.in` or `CITEinstitute.com`.
 3. Add it to cart. **Decline/skip upsells** you don't need — hosting, email, paid SSL, site builder — Netlify already provides SSL for free.
 4. Complete checkout and pay.
 5. You now own the domain and can manage its DNS settings from that registrar's dashboard.
@@ -114,10 +114,10 @@ You can buy your domain from any registrar. Two solid, low-markup options:
 
 ### 4.1 Add the domain in Netlify
 1. In your Netlify site dashboard, go to **Domain management → Add a domain**.
-2. Type your domain (e.g. `codecraftinstitute.in`) and click **Verify**, then **Add domain**.
+2. Type your domain (e.g. `CITEinstitute.in`) and click **Verify**, then **Add domain**.
 3. Netlify will show you the DNS records it needs — usually:
    - An **A record** pointing `@` (root domain) to Netlify's load balancer IP (e.g. `75.2.60.5`)
-   - A **CNAME record** pointing `www` to your Netlify subdomain (e.g. `codecraft-institute.netlify.app`)
+   - A **CNAME record** pointing `www` to your Netlify subdomain (e.g. `CITE-institute.netlify.app`)
 
    (Netlify shows the exact current values on this page — always copy them from there.)
 
@@ -135,7 +135,7 @@ You can buy your domain from any registrar. Two solid, low-markup options:
 This can take anywhere from a few minutes to a few hours (rarely up to 24–48 hours). You can check progress at [dnschecker.org](https://dnschecker.org) by entering your domain.
 
 ### 4.4 Set your primary domain
-Back in Netlify's **Domain management**, click **Set as primary domain** next to your custom domain (e.g. `www.codecraftinstitute.in`) so visitors are redirected there consistently.
+Back in Netlify's **Domain management**, click **Set as primary domain** next to your custom domain (e.g. `www.CITEinstitute.in`) so visitors are redirected there consistently.
 
 ---
 
@@ -145,7 +145,7 @@ Once DNS has propagated:
 
 1. Go to **Site settings → Domain management → HTTPS**.
 2. Netlify automatically provisions a **free SSL certificate** (powered by Let's Encrypt) for your custom domain — usually within a few minutes of DNS resolving correctly.
-3. Once issued, your site will be reachable securely at `https://codecraftinstitute.in` with the padlock icon, and Netlify auto-renews the certificate forever — no action needed from you.
+3. Once issued, your site will be reachable securely at `https://CITEinstitute.in` with the padlock icon, and Netlify auto-renews the certificate forever — no action needed from you.
 
 If it doesn't provision automatically after ~1 hour, click **Renew certificate** on that same page to trigger it manually.
 

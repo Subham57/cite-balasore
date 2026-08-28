@@ -1,4 +1,4 @@
-# CodeCraft Computer Institute — Website
+# CITE Computer Institute — Website
 
 A fully responsive, static marketing website for a computer coaching institute, built with **React (functional components + hooks)**, **React Router**, and **Tailwind CSS**, styled with a **Neumorphism (soft UI)** design language.
 
