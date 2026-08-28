@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="g_gallery-8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5A4FCF"/>
+      <stop offset="100%" stop-color="#281F63"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#g_gallery-8)"/>
+  <g opacity="0.9">
+    <rect x="40" y="40" width="560" height="400" rx="18" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="3" stroke-dasharray="10 8"/>
+  </g>
+  <circle cx="320.0" cy="220.0" r="56" fill="rgba(255,255,255,0.18)"/>
+  <path d="M 294.0 228.0 l 16 -20 l 14 16 l 10 -10 l 20 24 z" fill="rgba(255,255,255,0.85)" transform="translate(0,0)"/>
+  <text x="320.0" y="446" font-family="'Inter', Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">Placement Drive with Partner Companies</text>
+</svg>

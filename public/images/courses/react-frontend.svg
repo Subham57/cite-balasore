@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440">
+  <defs>
+    <linearGradient id="g_react_frontend" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2FC3AC"/>
+      <stop offset="100%" stop-color="#0F8377"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="440" fill="url(#g_react_frontend)"/>
+  <circle cx="570" cy="70" r="150" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="60" cy="400" r="110" fill="rgba(255,255,255,0.07)"/>
+  <g transform="translate(320.0,200.0)">
+    <circle r="80" fill="rgba(255,255,255,0.14)"/>
+    <text x="0" y="28" font-family="'Space Grotesk', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" text-anchor="middle">⚛</text>
+  </g>
+  <text x="320.0" y="398" font-family="'Inter', Arial, sans-serif" font-size="26" font-weight="600" fill="#ffffff" text-anchor="middle" opacity="0.95">React.js Frontend Development</text>
+</svg>

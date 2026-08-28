@@ -1,0 +1,213 @@
+[
+  {
+    "id": "web-dev-fundamentals",
+    "name": "Web Development Fundamentals",
+    "category": "Web Development",
+    "shortDescription": "Learn to build modern, responsive websites from scratch using HTML, CSS and JavaScript.",
+    "description": "This course takes you from zero to building complete, responsive websites. You'll master the core building blocks of the web and finish with a portfolio of real projects you can show employers.",
+    "price": 8999,
+    "originalPrice": 11999,
+    "duration": "3 Months",
+    "level": "Beginner",
+    "image": "/images/courses/web-dev-fundamentals.svg",
+    "popular": true,
+    "syllabus": [
+      "HTML5 - structure & semantics",
+      "CSS3 - layout, Flexbox & Grid",
+      "Responsive design & media queries",
+      "JavaScript fundamentals & DOM",
+      "Git & GitHub basics",
+      "Building & deploying a portfolio website"
+    ]
+  },
+  {
+    "id": "react-frontend-development",
+    "name": "React.js Frontend Development",
+    "category": "Web Development",
+    "shortDescription": "Build dynamic, component-based web applications with React and modern tooling.",
+    "description": "Go beyond static pages and learn to build real, interactive web applications with React. Covers hooks, state management, routing and API integration with hands-on projects throughout.",
+    "price": 12999,
+    "originalPrice": 15999,
+    "duration": "3 Months",
+    "level": "Intermediate",
+    "image": "/images/courses/react-frontend.svg",
+    "popular": true,
+    "syllabus": [
+      "JavaScript ES6+ refresher",
+      "React components & JSX",
+      "Hooks: useState, useEffect & more",
+      "React Router & navigation",
+      "State management basics",
+      "Consuming REST APIs",
+      "Capstone project & deployment"
+    ]
+  },
+  {
+    "id": "python-programming",
+    "name": "Python Programming",
+    "category": "Programming",
+    "shortDescription": "Master Python programming from basics to building real-world applications.",
+    "description": "A complete Python course covering core programming concepts, data structures, file handling and an introduction to libraries used in automation and data analysis.",
+    "price": 9999,
+    "originalPrice": 12999,
+    "duration": "3 Months",
+    "level": "Beginner",
+    "image": "/images/courses/python-programming.svg",
+    "popular": true,
+    "syllabus": [
+      "Python basics & syntax",
+      "Control flow & functions",
+      "Data structures: lists, dicts, sets",
+      "File handling & error handling",
+      "Object-oriented programming",
+      "Intro to libraries: NumPy & Pandas",
+      "Mini projects"
+    ]
+  },
+  {
+    "id": "java-programming",
+    "name": "Core & Advanced Java",
+    "category": "Programming",
+    "shortDescription": "Strong foundation in Java programming and object-oriented development.",
+    "description": "Covers core Java and advanced concepts required for enterprise application development, preparing students for backend development roles and further specialization.",
+    "price": 10999,
+    "originalPrice": 13999,
+    "duration": "4 Months",
+    "level": "Intermediate",
+    "image": "/images/courses/java-programming.svg",
+    "popular": false,
+    "syllabus": [
+      "Java fundamentals & OOP concepts",
+      "Collections framework",
+      "Exception handling",
+      "Multithreading basics",
+      "JDBC & database connectivity",
+      "Introduction to Spring Boot"
+    ]
+  },
+  {
+    "id": "digital-marketing",
+    "name": "Digital Marketing Mastery",
+    "category": "Digital Marketing",
+    "shortDescription": "Learn SEO, social media marketing, Google Ads and content strategy.",
+    "description": "A practical, project-based digital marketing course covering everything from SEO fundamentals to running paid ad campaigns and building a social media presence for a brand.",
+    "price": 7999,
+    "originalPrice": 9999,
+    "duration": "2 Months",
+    "level": "Beginner",
+    "image": "/images/courses/digital-marketing.svg",
+    "popular": true,
+    "syllabus": [
+      "SEO fundamentals & keyword research",
+      "Social media marketing",
+      "Google Ads & Meta Ads basics",
+      "Content marketing & copywriting",
+      "Email marketing",
+      "Analytics & reporting"
+    ]
+  },
+  {
+    "id": "graphic-design",
+    "name": "Graphic Design with Adobe Suite",
+    "category": "Design",
+    "shortDescription": "Master Photoshop, Illustrator and design principles for real client work.",
+    "description": "Learn professional graphic design workflows using Adobe Photoshop and Illustrator, along with core design theory - typography, color and layout - through hands-on client-style briefs.",
+    "price": 8499,
+    "originalPrice": 10999,
+    "duration": "3 Months",
+    "level": "Beginner",
+    "image": "/images/courses/graphic-design.svg",
+    "popular": true,
+    "syllabus": [
+      "Design principles: color, typography, layout",
+      "Adobe Photoshop essentials",
+      "Adobe Illustrator essentials",
+      "Logo & branding design",
+      "Social media creatives",
+      "Portfolio building"
+    ]
+  },
+  {
+    "id": "tally-accounting",
+    "name": "Tally with GST & Accounting",
+    "category": "Office & Accounting",
+    "shortDescription": "Practical accounting and GST-compliant billing using Tally Prime.",
+    "description": "Designed for commerce students and working professionals, this course covers practical accounting concepts alongside hands-on Tally Prime training including GST billing and returns.",
+    "price": 6999,
+    "originalPrice": 8999,
+    "duration": "2 Months",
+    "level": "Beginner",
+    "image": "/images/courses/tally-accounting.svg",
+    "popular": true,
+    "syllabus": [
+      "Fundamentals of accounting",
+      "Tally Prime setup & ledgers",
+      "Inventory management in Tally",
+      "GST concepts & billing",
+      "GST returns filing basics",
+      "Bank reconciliation & reports"
+    ]
+  },
+  {
+    "id": "ms-office",
+    "name": "MS Office Professional",
+    "category": "Office & Accounting",
+    "shortDescription": "Become efficient in Word, Excel, PowerPoint and Outlook for office roles.",
+    "description": "A focused course to build strong, job-ready skills in Microsoft Word, Excel (including formulas, pivot tables and charts), PowerPoint and Outlook for everyday office productivity.",
+    "price": 5499,
+    "originalPrice": 6999,
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "image": "/images/courses/ms-office.svg",
+    "popular": false,
+    "syllabus": [
+      "MS Word - documents & mail merge",
+      "MS Excel - formulas & functions",
+      "MS Excel - pivot tables & charts",
+      "MS PowerPoint - presentations",
+      "MS Outlook - email & calendar management"
+    ]
+  },
+  {
+    "id": "computer-hardware-networking",
+    "name": "Computer Hardware & Networking",
+    "category": "Hardware & Networking",
+    "shortDescription": "Hands-on training in PC assembly, troubleshooting and basic networking.",
+    "description": "Learn to assemble, upgrade and troubleshoot computers along with fundamentals of networking, making you ready for IT support and hardware technician roles.",
+    "price": 7499,
+    "originalPrice": 9499,
+    "duration": "3 Months",
+    "level": "Beginner",
+    "image": "/images/courses/hardware-networking.svg",
+    "popular": false,
+    "syllabus": [
+      "PC assembly & components",
+      "Operating system installation",
+      "Troubleshooting common issues",
+      "Networking fundamentals",
+      "LAN setup & configuration",
+      "Basic network security"
+    ]
+  },
+  {
+    "id": "data-analytics",
+    "name": "Data Analytics with Excel & Power BI",
+    "category": "Data Analytics",
+    "shortDescription": "Turn raw data into insights using Excel and Power BI dashboards.",
+    "description": "Learn how to clean, analyze and visualize data using advanced Excel techniques and Power BI, finishing with the ability to build interactive business dashboards.",
+    "price": 11499,
+    "originalPrice": 13999,
+    "duration": "2.5 Months",
+    "level": "Intermediate",
+    "image": "/images/courses/data-analytics.svg",
+    "popular": false,
+    "syllabus": [
+      "Advanced Excel formulas",
+      "Data cleaning techniques",
+      "Pivot tables & dashboards in Excel",
+      "Power BI basics",
+      "Building interactive reports",
+      "Data storytelling"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
+  <defs>
+    <linearGradient id="g_achievement-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9689FF"/>
+      <stop offset="100%" stop-color="#4739B0"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="520" fill="url(#g_achievement-1)"/>
+  <g transform="translate(260.0,230.0)" fill="#ffffff">
+    <polygon points="0,-90 21,-28 88,-28 33,10 54,72 0,34 -54,72 -33,10 -88,-28 -21,-28"
+      fill="rgba(255,255,255,0.92)"/>
+  </g>
+  <text x="260.0" y="470" font-family="'Inter', Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">5000+ Students Trained</text>
+</svg>

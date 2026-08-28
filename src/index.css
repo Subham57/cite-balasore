@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base text-ink font-body antialiased;
+  background-image: radial-gradient(circle at 15% 0%, #F4F7FB 0%, #E6EBF2 45%, #DDE3ED 100%);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display text-ink;
+}
+
+::selection {
+  @apply bg-brand-300 text-white;
+}
+
+/* Custom scrollbar to match the soft UI */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #E6EBF2;
+}
+::-webkit-scrollbar-thumb {
+  background: #B9B0FF;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9689FF;
+}
+
+/* Visible focus states for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #7A69F5;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.neu-scroll-x::-webkit-scrollbar {
+  height: 8px;
+}

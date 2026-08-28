@@ -1,0 +1,115 @@
+{
+  "instituteName": "CodeCraft",
+  "instituteFullName": "CodeCraft Computer Institute",
+  "tagline": "Learn. Build. Get Certified.",
+  "shortDescription": "CodeCraft Computer Institute has been shaping careers in technology since 2011. We offer hands-on, job-focused computer courses taught by working professionals, across two branches.",
+  "logoText": "CC",
+  "foundedYear": 2011,
+  "studentsTrained": "5000+",
+  "coursesOffered": "20+",
+  "placementRate": "92%",
+
+  "branches": [
+    {
+      "id": "branch-1",
+      "name": "CodeCraft - Park Street Branch (Main)",
+      "shortName": "Park Street Branch",
+      "address": "3rd Floor, Sarat Bose Complex, 24 Park Street, Kolkata, West Bengal 700016",
+      "phone": "+91 98300 11223",
+      "lat": 22.5535,
+      "lng": 88.3529,
+      "timings": "Mon - Sat: 9:00 AM - 7:00 PM"
+    },
+    {
+      "id": "branch-2",
+      "name": "CodeCraft - Salt Lake Sector V Branch",
+      "shortName": "Salt Lake Branch",
+      "address": "2nd Floor, Techno Tower, Sector V, Salt Lake, Kolkata, West Bengal 700091",
+      "phone": "+91 98300 44556",
+      "lat": 22.5744,
+      "lng": 88.4338,
+      "timings": "Mon - Sat: 9:00 AM - 7:00 PM"
+    }
+  ],
+
+  "contact": {
+    "phones": ["+91 98300 11223", "+91 98300 44556"],
+    "emails": ["info@codecraftinstitute.in", "admissions@codecraftinstitute.in"],
+    "whatsapp": "+91 98300 11223",
+    "socialMedia": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "youtube": "https://youtube.com",
+      "linkedin": "https://linkedin.com"
+    }
+  },
+
+  "payment": {
+    "upiId": "codecraftinstitute@okicici",
+    "payeeName": "CodeCraft Computer Institute",
+    "qrImage": "/images/payment-qr.svg",
+    "warningMessage": "Before making any payment, please contact the administrator and confirm course availability and fee details. Always collect your official fee receipt from the branch office after payment."
+  },
+
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "5000+ Students Trained",
+      "image": "/images/achievements/achievement-1.svg",
+      "description": "Over 5000 students have completed certified programs with us since 2011."
+    },
+    {
+      "id": "ach-2",
+      "title": "Best Computer Institute Award 2023",
+      "image": "/images/achievements/achievement-2.svg",
+      "description": "Recognized by the State IT Skill Council for excellence in computer education."
+    },
+    {
+      "id": "ach-3",
+      "title": "92% Placement Assistance Rate",
+      "image": "/images/achievements/achievement-3.svg",
+      "description": "Strong industry tie-ups helping our students land jobs after certification."
+    },
+    {
+      "id": "ach-4",
+      "title": "ISO 9001:2015 Certified Institute",
+      "image": "/images/achievements/achievement-4.svg",
+      "description": "Our training quality management is ISO certified for consistent standards."
+    },
+    {
+      "id": "ach-5",
+      "title": "50+ Corporate Training Partners",
+      "image": "/images/achievements/achievement-5.svg",
+      "description": "Trusted by local businesses for staff upskilling and corporate workshops."
+    }
+  ],
+
+  "aboutUs": {
+    "heading": "About CodeCraft Computer Institute",
+    "story": "CodeCraft Computer Institute was founded in 2011 with one goal: make quality, job-ready computer education accessible to every student in the city. What started as a single classroom with 12 students has grown into two full-fledged branches with modern labs, experienced faculty, and thousands of successful alumni working across the IT industry.",
+    "mission": "To deliver practical, industry-relevant computer training that turns beginners into confident, employable professionals.",
+    "vision": "To be the most trusted computer training institute in the region, known for outcomes, not just certificates.",
+    "images": [
+      "/images/about/about-1.svg",
+      "/images/about/about-2.svg",
+      "/images/about/about-3.svg"
+    ],
+    "values": [
+      { "title": "Practical First", "description": "Every course is built around real projects, not just theory." },
+      { "title": "Small Batches", "description": "Focused, limited-size batches so every student gets attention." },
+      { "title": "Experienced Faculty", "description": "Trainers with real industry experience, not just teaching degrees." },
+      { "title": "Career Support", "description": "Resume help, interview prep and placement assistance included." }
+    ]
+  },
+
+  "gallery": [
+    { "id": "g1", "image": "/images/gallery/gallery-1.svg", "caption": "Annual Prize Distribution Ceremony 2024" },
+    { "id": "g2", "image": "/images/gallery/gallery-2.svg", "caption": "Advanced Programming Lab, Park Street Branch" },
+    { "id": "g3", "image": "/images/gallery/gallery-3.svg", "caption": "State IT Skill Council Award Ceremony" },
+    { "id": "g4", "image": "/images/gallery/gallery-4.svg", "caption": "Student Hackathon Winners 2023" },
+    { "id": "g5", "image": "/images/gallery/gallery-5.svg", "caption": "Corporate Training Workshop" },
+    { "id": "g6", "image": "/images/gallery/gallery-6.svg", "caption": "New Salt Lake Branch Inauguration" },
+    { "id": "g7", "image": "/images/gallery/gallery-7.svg", "caption": "Graphic Design Batch Project Showcase" },
+    { "id": "g8", "image": "/images/gallery/gallery-8.svg", "caption": "Placement Drive with Partner Companies" }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <defs>
+    <linearGradient id="g_about-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5A4FCF"/>
+      <stop offset="100%" stop-color="#281F63"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#g_about-1)"/>
+  <rect x="60" y="60" width="680" height="440" rx="28" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <circle cx="224.00000000000003" cy="235.2" r="70" fill="rgba(255,255,255,0.25)"/>
+  <rect x="360.0" y="168.0" width="280.0" height="18" rx="9" fill="rgba(255,255,255,0.55)"/>
+  <rect x="360.0" y="212.8" width="224.00000000000003" height="14" rx="7" fill="rgba(255,255,255,0.35)"/>
+  <rect x="360.0" y="252.0" width="240.0" height="14" rx="7" fill="rgba(255,255,255,0.35)"/>
+  <text x="400.0" y="505" font-family="'Inter', Arial, sans-serif" font-size="26" font-weight="600" fill="#ffffff" text-anchor="middle">Our Classroom</text>
+</svg>
