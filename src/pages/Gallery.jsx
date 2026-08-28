@@ -39,7 +39,7 @@ export default function Gallery() {
         </p>
         <h1 className="text-4xl font-bold mt-1">Photo Gallery</h1>
         <p className="text-ink-soft mt-3">
-          A look at our achievements, events, and life at CITE Computer Institute.
+          A look at our achievements, events, and life at CITE Computer.
         </p>
       </div>
 

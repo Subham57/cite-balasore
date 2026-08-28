@@ -1,16 +1,16 @@
-import { Link } from 'react-router-dom'
-import config from '../data/config.json'
+import { Link } from "react-router-dom";
+import config from "../data/config.json";
 
 const PAGE_LINKS = [
-  { to: '/', label: 'Home' },
-  { to: '/courses', label: 'Courses' },
-  { to: '/about', label: 'About Us' },
-  { to: '/gallery', label: 'Photo Gallery' },
-  { to: '/contact', label: 'Contact Us' },
-]
+  { to: "/", label: "Home" },
+  { to: "/courses", label: "Courses" },
+  { to: "/about", label: "About Us" },
+  { to: "/gallery", label: "Photo Gallery" },
+  { to: "/contact", label: "Contact Us" },
+];
 
 export default function Footer() {
-  const year = new Date().getFullYear()
+  const year = new Date().getFullYear();
 
   return (
     <footer className="mt-24 bg-base">
@@ -20,11 +20,11 @@ export default function Footer() {
           <div>
             <Link to="/" className="flex items-center gap-3 mb-4">
               <img
-                src="/images/logo.svg"
-                alt={`${config.instituteFullName} logo`}
-                className="w-11 h-11 rounded-neu-sm shadow-neu-flat-sm"
+                src="/images/cite-logo.svg"
+                alt="CITE - Centre of Innovation and Tech Education"
+                className="w-64 h-auto"
               />
-              <span className="font-display font-bold text-lg">{config.instituteName}</span>
+              {/* <span className="font-display font-bold text-lg">{config.instituteName}</span> */}
             </Link>
             <p className="text-sm text-ink-soft leading-relaxed">
               {config.shortDescription}
@@ -58,14 +58,20 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-ink-soft">
               {config.contact.phones.map((phone) => (
                 <li key={phone}>
-                  <a href={`tel:${phone}`} className="hover:text-brand-600 transition-colors">
+                  <a
+                    href={`tel:${phone}`}
+                    className="hover:text-brand-600 transition-colors"
+                  >
                     {phone}
                   </a>
                 </li>
               ))}
               {config.contact.emails.map((email) => (
                 <li key={email}>
-                  <a href={`mailto:${email}`} className="hover:text-brand-600 transition-colors break-all">
+                  <a
+                    href={`mailto:${email}`}
+                    className="hover:text-brand-600 transition-colors break-all"
+                  >
                     {email}
                   </a>
                 </li>
@@ -87,7 +93,9 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="hover:text-brand-600 transition-colors"
                   >
-                    <span className="font-semibold text-ink block">{branch.shortName}</span>
+                    <span className="font-semibold text-ink block">
+                      {branch.shortName}
+                    </span>
                     {branch.address}
                   </a>
                 </li>
@@ -117,5 +125,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

@@ -1,51 +1,51 @@
-import { useState, useEffect } from 'react'
-import { NavLink } from 'react-router-dom'
-import config from '../data/config.json'
+import { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
+import config from "../data/config.json";
 
 const NAV_LINKS = [
-  { to: '/', label: 'Home' },
-  { to: '/courses', label: 'Courses' },
-  { to: '/about', label: 'About Us' },
-  { to: '/gallery', label: 'Gallery' },
-  { to: '/contact', label: 'Contact Us' },
-]
+  { to: "/", label: "Home" },
+  { to: "/courses", label: "Courses" },
+  { to: "/about", label: "About Us" },
+  { to: "/gallery", label: "Gallery" },
+  { to: "/contact", label: "Contact Us" },
+];
 
 export default function Header() {
-  const [open, setOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8)
-    window.addEventListener('scroll', onScroll)
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   useEffect(() => {
-    setOpen(false)
-  }, [])
+    setOpen(false);
+  }, []);
 
   const linkClass = ({ isActive }) =>
     `px-4 py-2 rounded-neu-sm font-display text-sm font-semibold transition-all duration-200 ${
       isActive
-        ? 'bg-base shadow-neu-pressed text-brand-600'
-        : 'text-ink-soft hover:text-brand-600'
-    }`
+        ? "bg-base shadow-neu-pressed text-brand-600"
+        : "text-ink-soft hover:text-brand-600"
+    }`;
 
   return (
     <header
       className={`sticky top-0 z-50 bg-base/90 backdrop-blur transition-shadow ${
-        scrolled ? 'shadow-neu-flat-sm' : ''
+        scrolled ? "shadow-neu-flat-sm" : ""
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <NavLink to="/" className="flex items-center gap-3 group">
+          <NavLink to="/" className="flex items-center group">
             <img
-              src="/images/logo.svg"
-              alt={`${config.instituteFullName} logo`}
-              className="w-12 h-12 rounded-neu-sm shadow-neu-flat-sm group-hover:shadow-neu-hover transition-shadow"
+              src="/images/cite-logo.svg"
+              alt="CITE - Centre of Innovation and Tech Education"
+              className="w-64 h-auto"
             />
-            <div className="leading-tight">
+            {/* <div className="leading-tight">
               <p className="font-display font-bold text-lg text-ink">
                 {config.instituteName}
                 <span className="text-brand-500">.</span>
@@ -53,12 +53,17 @@ export default function Header() {
               <p className="text-[11px] text-ink-faint tracking-wide uppercase hidden sm:block">
                 {config.tagline}
               </p>
-            </div>
+            </div> */}
           </NavLink>
 
           <nav className="hidden lg:flex items-center gap-2 bg-base rounded-neu-lg shadow-neu-pressed px-2 py-2">
             {NAV_LINKS.map((link) => (
-              <NavLink key={link.to} to={link.to} end={link.to === '/'} className={linkClass}>
+              <NavLink
+                key={link.to}
+                to={link.to}
+                end={link.to === "/"}
+                className={linkClass}
+              >
                 {link.label}
               </NavLink>
             ))}
@@ -80,13 +85,15 @@ export default function Header() {
             <div className="w-6 space-y-1.5">
               <span
                 className={`block h-0.5 bg-ink rounded transition-transform ${
-                  open ? 'translate-y-2 rotate-45' : ''
+                  open ? "translate-y-2 rotate-45" : ""
                 }`}
               />
-              <span className={`block h-0.5 bg-ink rounded transition-opacity ${open ? 'opacity-0' : ''}`} />
+              <span
+                className={`block h-0.5 bg-ink rounded transition-opacity ${open ? "opacity-0" : ""}`}
+              />
               <span
                 className={`block h-0.5 bg-ink rounded transition-transform ${
-                  open ? '-translate-y-2 -rotate-45' : ''
+                  open ? "-translate-y-2 -rotate-45" : ""
                 }`}
               />
             </div>
@@ -96,7 +103,7 @@ export default function Header() {
 
       <div
         className={`lg:hidden overflow-hidden transition-all duration-300 ${
-          open ? 'max-h-96' : 'max-h-0'
+          open ? "max-h-96" : "max-h-0"
         }`}
       >
         <nav className="px-4 pb-4 flex flex-col gap-2">
@@ -104,11 +111,13 @@ export default function Header() {
             <NavLink
               key={link.to}
               to={link.to}
-              end={link.to === '/'}
+              end={link.to === "/"}
               onClick={() => setOpen(false)}
               className={({ isActive }) =>
                 `px-4 py-3 rounded-neu-sm font-display text-sm font-semibold bg-base ${
-                  isActive ? 'shadow-neu-pressed text-brand-600' : 'shadow-neu-flat-sm text-ink-soft'
+                  isActive
+                    ? "shadow-neu-pressed text-brand-600"
+                    : "shadow-neu-flat-sm text-ink-soft"
                 }`
               }
             >
@@ -124,5 +133,5 @@ export default function Header() {
         </nav>
       </div>
     </header>
-  )
+  );
 }

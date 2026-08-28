@@ -1,72 +1,72 @@
 {
   "instituteName": "CITE",
-  "instituteFullName": "CITE Computer Institute",
+  "instituteFullName": "CITE Computer",
   "tagline": "Learn. Build. Get Certified.",
-  "shortDescription": "CITE Computer Institute has been shaping careers in technology since 2011. We offer hands-on, job-focused computer courses taught by working professionals, across two branches.",
+  "shortDescription": "CITE Computer has been shaping careers in technology since 2024. We offer hands-on, job-focused computer courses taught by working professionals, across two branches.",
   "logoText": "CC",
-  "foundedYear": 2011,
-  "studentsTrained": "5000+",
-  "coursesOffered": "20+",
-  "placementRate": "92%",
+  "foundedYear": 2024,
+  "studentsTrained": "500+",
+  "coursesOffered": "70+",
+  "placementRate": "70%",
 
   "branches": [
     {
       "id": "branch-1",
-      "name": "CITE - Park Street Branch (Main)",
-      "shortName": "Park Street Branch",
-      "address": "3rd Floor, Sarat Bose Complex, 24 Park Street, Kolkata, West Bengal 700016",
-      "phone": "+91 78469 07846",
-      "lat": 22.5535,
-      "lng": 88.3529,
+      "name": "CITE -  Branch 1",
+      "shortName": "CITE -  Branch 1",
+      "address": "Chunbhati, AT-Gopalgoan, Balasore, Odisha 756001",
+      "phone": "+91 96920 09692",
+      "lat": 21.502047487884724, 
+      "lng": 86.93621694137993,
       "timings": "Mon - Sat: 9:00 AM - 7:00 PM"
     },
     {
       "id": "branch-2",
-      "name": "CITE - Salt Lake Sector V Branch",
-      "shortName": "Salt Lake Branch",
-      "address": "2nd Floor, Techno Tower, Sector V, Salt Lake, Kolkata, West Bengal 700091",
-      "phone": "+91 96920 09692",
-      "lat": 22.5744,
-      "lng": 88.4338,
+      "name": "CITE -  Branch 2",
+      "shortName": "CITE -  Branch 2",
+      "address": "Jamini Laundry Lane, in front of FM College Road, Mallikashpur, Balasore, Odisha 756001",
+      "phone": "+91 78469 07846",
+      "lat": 21.49076527631777,
+      "lng": 86.93143268951157,
       "timings": "Mon - Sat: 9:00 AM - 7:00 PM"
     }
   ],
 
   "contact": {
     "phones": ["+91 78469 07846", "+91 96920 09692"],
-    "emails": ["info@citeinstitute.in", "admissions@citeinstitute.in"],
+    "emails": ["citecomputer.bls@gmail.com"],
     "whatsapp": "+91 78469 07846",
     "socialMedia": {
-      "facebook": "https://facebook.com",
-      "instagram": "https://instagram.com",
+      "facebook": "https://www.facebook.com/people/CITE-Balasore/61580697563898/#",
+      "instagram": "https://www.instagram.com/cite.balasore/",
       "youtube": "https://youtube.com",
-      "linkedin": "https://linkedin.com"
+      "linkedin": "https://www.linkedin.com/company/cite-balasore/posts/?feedView=all"
     }
   },
 
   "payment": {
-    "upiId": "citeinstitute@okicici",
-    "payeeName": "CITE Computer Institute",
-    "qrImage": "/images/payment-qr.svg",
-    "warningMessage": "Before making any payment, please contact the administrator and confirm course availability and fee details. Always collect your official fee receipt from the branch office after payment."
+    "upiId": "7978036105-2@okbizaxis",
+    "payeeName": "CITE BALASORE",
+    "qrImage": "/images/qr.jpeg",
+    "warningMessage": "Before making any payment, please contact the administrator (+91 96920 09692) and confirm course availability and fee details. Always collect your official fee receipt from the branch office after payment."
   },
 
   "achievements": [
     {
       "id": "ach-1",
-      "title": "5000+ Students Trained",
+      "title": "500+ Students Trained",
       "image": "/images/achievements/achievement-1.svg",
-      "description": "Over 5000 students have completed certified programs with us since 2011."
+      "description": "Over 500 students have completed certified programs with us since 2024."
     },
     {
       "id": "ach-2",
-      "title": "Best Computer Institute Award 2023",
+      "title": "Best Computer Institute Award 2025",
       "image": "/images/achievements/achievement-2.svg",
       "description": "Recognized by the State IT Skill Council for excellence in computer education."
     },
     {
       "id": "ach-3",
-      "title": "92% Placement Assistance Rate",
+      "title": "70% Placement Assistance Rate",
       "image": "/images/achievements/achievement-3.svg",
       "description": "Strong industry tie-ups helping our students land jobs after certification."
     },
@@ -85,8 +85,8 @@
   ],
 
   "aboutUs": {
-    "heading": "About CITE Computer Institute",
-    "story": "CITE Computer Institute was founded in 2011 with one goal: make quality, job-ready computer education accessible to every student in the city. What started as a single classroom with 12 students has grown into two full-fledged branches with modern labs, experienced faculty, and thousands of successful alumni working across the IT industry.",
+    "heading": "About CITE Computer",
+    "story": "CITE Computer Institute was founded in 2024 with one goal: make quality, job-ready computer education accessible to every student in the city. What started as a single classroom with 12 students has grown into two full-fledged branches with modern labs, experienced faculty, and thousands of successful alumni working across the IT industry.",
     "mission": "To deliver practical, industry-relevant computer training that turns beginners into confident, employable professionals.",
     "vision": "To be the most trusted computer training institute in the region, known for outcomes, not just certificates.",
     "images": [
@@ -106,7 +106,7 @@
     { "id": "g1", "image": "/images/gallery/gallery-1.svg", "caption": "Annual Prize Distribution Ceremony 2024" },
     { "id": "g2", "image": "/images/gallery/gallery-2.svg", "caption": "Advanced Programming Lab, Park Street Branch" },
     { "id": "g3", "image": "/images/gallery/gallery-3.svg", "caption": "State IT Skill Council Award Ceremony" },
-    { "id": "g4", "image": "/images/gallery/gallery-4.svg", "caption": "Student Hackathon Winners 2023" },
+    { "id": "g4", "image": "/images/gallery/gallery-4.svg", "caption": "Student Hackathon Winners 2025" },
     { "id": "g5", "image": "/images/gallery/gallery-5.svg", "caption": "Corporate Training Workshop" },
     { "id": "g6", "image": "/images/gallery/gallery-6.svg", "caption": "New Salt Lake Branch Inauguration" },
     { "id": "g7", "image": "/images/gallery/gallery-7.svg", "caption": "Graphic Design Batch Project Showcase" },

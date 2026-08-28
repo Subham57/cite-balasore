@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
-  <defs>
-    <linearGradient id="g_achievement-2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7A69F5"/>
-      <stop offset="100%" stop-color="#372B8A"/>
-    </linearGradient>
-  </defs>
-  <rect width="520" height="520" fill="url(#g_achievement-2)"/>
-  <g transform="translate(260.0,230.0)" fill="#ffffff">
-    <polygon points="0,-90 21,-28 88,-28 33,10 54,72 0,34 -54,72 -33,10 -88,-28 -21,-28"
-      fill="rgba(255,255,255,0.92)"/>
-  </g>
-  <text x="260.0" y="470" font-family="'Inter', Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">Best Computer Institute Award 2023</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none"> <defs> <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500"> <stop stop-color="#062F63"/> <stop offset=".5" stop-color="#0A4291"/> <stop offset="1" stop-color="#0D5AB8"/> </linearGradient> <linearGradient id="gold" x1="330" y1="120" x2="470" y2="330"> <stop stop-color="#FFE7A3"/> <stop offset=".5" stop-color="#F5C451"/> <stop offset="1" stop-color="#C88A16"/> </linearGradient> <filter id="shadow"> <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#031B3A" flood-opacity=".35"/> </filter> </defs> <rect width="800" height="500" fill="url(#bg)"/> <circle cx="400" cy="250" r="190" fill="#fff" fill-opacity=".04"/> <!-- Stars --> <g fill="#FFE7A3"> <path d="M130 115L136 130L152 132L140 142L143 158L130 150L117 158L120 142L108 132L124 130Z"/> <path d="M670 125L676 140L692 142L680 152L683 168L670 160L657 168L660 152L648 142L664 140Z"/> <path d="M120 335L125 347L138 349L128 358L130 371L120 365L110 371L112 358L102 349L115 347Z"/> <path d="M680 335L685 347L698 349L688 358L690 371L680 365L670 371L672 358L662 349L675 347Z"/> </g> <!-- Trophy --> <g filter="url(#shadow)"> <path d="M315 125H485V205C485 270 450 310 400 310C350 310 315 270 315 205V125Z" fill="url(#gold)"/> <!-- Handles --> <path d="M315 150H280C280 210 300 235 335 235" stroke="#F5C451" stroke-width="18" stroke-linecap="round"/> <path d="M485 150H520C520 210 500 235 465 235" stroke="#F5C451" stroke-width="18" stroke-linecap="round"/> <!-- Star --> <path d="M400 155L413 184L445 188L421 209L427 241L400 226L373 241L379 209L355 188L387 184Z" fill="#fff"/> <!-- Stem --> <rect x="380" y="300" width="40" height="55" rx="8" fill="#F5C451"/> <rect x="330" y="350" width="140" height="28" rx="14" fill="#FFE7A3"/> </g> <!-- Label --> <rect x="265" y="405" width="270" height="42" rx="21" fill="#fff" fill-opacity=".12" stroke="#fff" stroke-opacity=".18"/> <text x="400" y="432" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">BEST INSTITUTE • 2025</text> </svg>

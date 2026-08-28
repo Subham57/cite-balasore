@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
-  <defs>
-    <linearGradient id="g_achievement-4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#17A398"/>
-      <stop offset="100%" stop-color="#0F8377"/>
-    </linearGradient>
-  </defs>
-  <rect width="520" height="520" fill="url(#g_achievement-4)"/>
-  <g transform="translate(260.0,230.0)" fill="#ffffff">
-    <polygon points="0,-90 21,-28 88,-28 33,10 54,72 0,34 -54,72 -33,10 -88,-28 -21,-28"
-      fill="rgba(255,255,255,0.92)"/>
-  </g>
-  <text x="260.0" y="470" font-family="'Inter', Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">ISO 9001:2015 Certified Institute</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none"> <defs> <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500"> <stop stop-color="#062F63"/> <stop offset=".5" stop-color="#0A4291"/> <stop offset="1" stop-color="#0D5AB8"/> </linearGradient> <filter id="shadow"> <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#031B3A" flood-opacity=".35"/> </filter> </defs> <rect width="800" height="500" fill="url(#bg)"/> <circle cx="400" cy="250" r="205" fill="#fff" fill-opacity=".035"/> <!-- Certificate --> <g filter="url(#shadow)"> <rect x="185" y="75" width="430" height="350" rx="20" fill="#fff"/> <!-- Certificate border --> <rect x="205" y="95" width="390" height="310" rx="12" fill="none" stroke="#0A4291" stroke-width="3"/> <rect x="215" y="105" width="370" height="290" rx="9" fill="none" stroke="#D6E6FF" stroke-width="2"/> <!-- Seal --> <circle cx="400" cy="175" r="48" fill="#0A4291"/> <circle cx="400" cy="175" r="38" fill="none" stroke="#55D6C2" stroke-width="3"/> <path d="M400 145L408 164L429 166L413 180L418 201L400 190L382 201L387 180L371 166L392 164Z" fill="#fff"/> <!-- Text --> <text x="400" y="255" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="800" fill="#0A4291">ISO 9001:2015</text> <rect x="290" y="275" width="220" height="7" rx="3.5" fill="#B0CEFF"/> <text x="400" y="315" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600" fill="#565B7A">QUALITY MANAGEMENT SYSTEM</text> <text x="400" y="345" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="500" fill="#8A90AC">CERTIFIED INSTITUTE</text> <!-- Signature line --> <rect x="275" y="370" width="110" height="2" rx="1" fill="#D6DDE8"/> <rect x="415" y="370" width="110" height="2" rx="1" fill="#D6DDE8"/> </g> <!-- Floating check --> <circle cx="650" cy="380" r="42" fill="#55D6C2" filter="url(#shadow)"/> <path d="M630 380L643 393L670 365" stroke="#062F63" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/> </svg>

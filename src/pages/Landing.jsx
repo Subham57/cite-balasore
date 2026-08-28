@@ -55,7 +55,7 @@ export default function Landing() {
             <NeuCard className="p-3">
               <img
                 src="/images/about/about-1.svg"
-                alt="Students learning at CITE Computer Institute"
+                alt="Students learning at CITE Computer"
                 className="w-full h-[380px] object-cover rounded-neu-sm"
               />
             </NeuCard>

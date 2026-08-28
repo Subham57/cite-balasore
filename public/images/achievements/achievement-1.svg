@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
-  <defs>
-    <linearGradient id="g_achievement-1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#9689FF"/>
-      <stop offset="100%" stop-color="#4739B0"/>
-    </linearGradient>
-  </defs>
-  <rect width="520" height="520" fill="url(#g_achievement-1)"/>
-  <g transform="translate(260.0,230.0)" fill="#ffffff">
-    <polygon points="0,-90 21,-28 88,-28 33,10 54,72 0,34 -54,72 -33,10 -88,-28 -21,-28"
-      fill="rgba(255,255,255,0.92)"/>
-  </g>
-  <text x="260.0" y="470" font-family="'Inter', Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">5000+ Students Trained</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none"> <defs> <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500"> <stop stop-color="#0A4291"/> <stop offset="0.55" stop-color="#0D5AB8"/> <stop offset="1" stop-color="#062F63"/> </linearGradient> <filter id="shadow"> <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#031B3A" flood-opacity=".3"/> </filter> </defs> <rect width="800" height="500" fill="url(#bg)"/> <circle cx="680" cy="90" r="170" fill="#5FA8FF" fill-opacity=".12"/> <circle cx="110" cy="430" r="180" fill="#55D6C2" fill-opacity=".08"/> <!-- Glass panel --> <rect x="55" y="50" width="690" height="400" rx="30" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".2"/> <!-- Graduation cap --> <g filter="url(#shadow)"> <path d="M400 105L245 175L400 245L555 175L400 105Z" fill="#fff" fill-opacity=".95"/> <path d="M295 205V255C295 285 350 305 400 305C450 305 505 285 505 255V205L400 252L295 205Z" fill="#D6E6FF"/> <path d="M555 175V235" stroke="#fff" stroke-width="8" stroke-linecap="round"/> <circle cx="555" cy="242" r="12" fill="#55D6C2"/> <path d="M400 245V292" stroke="#0A4291" stroke-width="7" stroke-linecap="round"/> </g> <!-- People --> <circle cx="230" cy="350" r="32" fill="#fff" fill-opacity=".85"/> <circle cx="570" cy="350" r="32" fill="#fff" fill-opacity=".85"/> <path d="M175 425C175 382 198 365 230 365C262 365 285 382 285 425" stroke="#fff" stroke-opacity=".75" stroke-width="18" stroke-linecap="round"/> <path d="M515 425C515 382 538 365 570 365C602 365 625 382 625 425" stroke="#fff" stroke-opacity=".75" stroke-width="18" stroke-linecap="round"/> <!-- Center number --> <text x="400" y="370" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="46" font-weight="800" fill="#55D6C2">500+</text> <text x="400" y="400" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#fff" fill-opacity=".75">STUDENTS TRAINED</text> </svg>

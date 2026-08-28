@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 760 150"
+     width="760"
+     height="150"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">CITE — Centre of Innovation and Tech Education</title>
+  <desc id="desc">Professional blue CITE logo with the text Centre of Innovation and Tech Education.</desc>
+
+  <!-- Transparent background -->
+  <g fill="#0B4A9E">
+    <!-- C -->
+    <path d="M18 75c0-35 27-58 61-58 19 0 36 7 49 20l-19 19c-8-8-17-12-29-12-19 0-33 13-33 31s14 31 33 31c12 0 21-4 29-12l19 19c-13 13-30 20-49 20-34 0-61-23-61-58z"/>
+
+    <!-- I -->
+    <path d="M143 20h28v110h-28z"/>
+
+    <!-- T -->
+    <path d="M193 20h88v25h-30v85h-28V45h-30z"/>
+
+    <!-- E, stylized -->
+    <path d="M298 20h76v25h-48v18h42v24h-42v18h48v25h-76z"/>
+  </g>
+
+  <!-- Divider -->
+  <rect x="397" y="19" width="2" height="112" rx="1" fill="#AAB7C9"/>
+
+  <!-- Institute name -->
+  <g fill="#164DA5"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-weight="400">
+    <text x="420" y="68" font-size="31">Centre of Innovation and</text>
+    <text x="420" y="108" font-size="31">Tech Education</text>
+  </g>
+</svg>
